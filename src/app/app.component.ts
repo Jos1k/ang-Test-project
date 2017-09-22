@@ -23,6 +23,7 @@ export class AppComponent {
   title = 'Tour Of Heroes';
   selectedHero:Hero;
   heroes = HEROES;
+  
   onSelect(hero:Hero):void {
     this.selectedHero = hero;
   }
